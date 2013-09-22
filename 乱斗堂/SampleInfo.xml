@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--例子相关信息,Type,指明例子所属编辑器-->
+<SampleInfo Name="CHROSFIGHTERS" Type="Scene">
+  <!--预览图片,指定预览图片的名称,也可以不填,
+        默认为SampleInfo.Name 的属性,添加png后缀名,如果指定则使用指定的图片-->
+  <PreviewImage Name="CHROSFIGHTERS.png"/>
+  <!--需求最低的编辑器版本,格式如下,指定打开例子所需要的最低编辑器版本-->
+  <MinEditorVersion>1.0.0.0</MinEditorVersion>
+  <!--更新时间,格式如下,指定当前例子最后更新的时间-->
+  <UpdateTime>2013/9/16 10:28:06</UpdateTime>
+  <!--描述信息,显示给用户的相关说明信息-->
+  <Description>乱斗堂战斗场景</Description>
+</SampleInfo>
