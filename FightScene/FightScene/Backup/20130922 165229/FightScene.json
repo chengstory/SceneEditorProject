@@ -15,7 +15,7 @@
       "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
       "classname": "CCNode",
       "name": "bg1",
-      "canedit": false,
+      "canedit": true,
       "objecttag": 10003,
       "rotation": 0,
       "scalex": 1,
@@ -110,7 +110,92 @@
       "x": 0,
       "y": 0,
       "zorder": 3,
-      "gameobjects": [],
+      "gameobjects": [
+        {
+          "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+          "classname": "CCNode",
+          "name": "VSFire",
+          "canedit": true,
+          "objecttag": 10009,
+          "rotation": 0,
+          "scalex": 0.5,
+          "scaley": 0.5,
+          "visible": 1,
+          "x": 476,
+          "y": 539,
+          "zorder": 4,
+          "gameobjects": [],
+          "components": [
+            {
+              "__type": "ComParticleSystemSurrogate:#EditorCommon.JsonModel.Component",
+              "classname": "CCParticleSystemQuad",
+              "name": "CCParticleSystemQuad",
+              "file": null,
+              "fileData": {
+                "path": "particle/1-buff.plist",
+                "plistFile": null,
+                "resourceType": 0
+              }
+            }
+          ]
+        },
+        {
+          "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+          "classname": "CCNode",
+          "name": "EnemyHead",
+          "canedit": true,
+          "objecttag": 10010,
+          "rotation": 0,
+          "scalex": 0.5,
+          "scaley": 0.5,
+          "visible": 1,
+          "x": 818,
+          "y": 577,
+          "zorder": 1,
+          "gameobjects": [],
+          "components": [
+            {
+              "__type": "ComSpriteSurrogate:#EditorCommon.JsonModel.Component",
+              "classname": "CCSprite",
+              "name": "CCSprite",
+              "file": null,
+              "fileData": {
+                "path": "tauren_cell-head.png",
+                "plistFile": "ani/enemy/monster0.plist",
+                "resourceType": 1
+              }
+            }
+          ]
+        },
+        {
+          "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+          "classname": "CCNode",
+          "name": "HeroHead",
+          "canedit": true,
+          "objecttag": 10011,
+          "rotation": 0,
+          "scalex": 0.5,
+          "scaley": 0.5,
+          "visible": 1,
+          "x": 141,
+          "y": 578,
+          "zorder": 1,
+          "gameobjects": [],
+          "components": [
+            {
+              "__type": "ComSpriteSurrogate:#EditorCommon.JsonModel.Component",
+              "classname": "CCSprite",
+              "name": "CCSprite",
+              "file": null,
+              "fileData": {
+                "path": "girl_png/girl_head.png",
+                "plistFile": "ani/hero/girl0.plist",
+                "resourceType": 1
+              }
+            }
+          ]
+        }
+      ],
       "components": [
         {
           "__type": "ComGUIAdapterSurrogate:#EditorCommon.JsonModel.Component",
@@ -119,34 +204,6 @@
           "file": null,
           "fileData": {
             "path": "ui/FightScene_1/FightScene_1.ExportJson",
-            "plistFile": null,
-            "resourceType": 0
-          }
-        }
-      ]
-    },
-    {
-      "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
-      "classname": "CCNode",
-      "name": null,
-      "canedit": true,
-      "objecttag": 10008,
-      "rotation": 0,
-      "scalex": 0.5,
-      "scaley": 0.5,
-      "visible": 1,
-      "x": 491,
-      "y": 416.5,
-      "zorder": 4,
-      "gameobjects": [],
-      "components": [
-        {
-          "__type": "ComParticleSystemSurrogate:#EditorCommon.JsonModel.Component",
-          "classname": "CCParticleSystemQuad",
-          "name": "CCParticleSystemQuad",
-          "file": null,
-          "fileData": {
-            "path": "particle/1-buff.plist",
             "plistFile": null,
             "resourceType": 0
           }

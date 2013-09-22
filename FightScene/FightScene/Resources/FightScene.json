@@ -15,7 +15,7 @@
       "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
       "classname": "CCNode",
       "name": "bg1",
-      "canedit": true,
+      "canedit": false,
       "objecttag": 10003,
       "rotation": 0,
       "scalex": 1,
@@ -93,7 +93,7 @@
             "plistFile": null,
             "resourceType": 0
           },
-          "selectedactionname": "run"
+          "selectedactionname": "loading"
         }
       ]
     },
@@ -101,7 +101,7 @@
       "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
       "classname": "CCNode",
       "name": "ui",
-      "canedit": true,
+      "canedit": false,
       "objecttag": 10007,
       "rotation": 0,
       "scalex": 1,
