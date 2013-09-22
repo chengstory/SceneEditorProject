@@ -11,8 +11,8 @@
   <!--描述信息,显示给用户的相关说明信息-->
   <Description>
     <!--描述信息,中文说明信息-->
-    <Chinese>策略类游戏场景</Chinese>
+    <Chinese>角色扮演游戏场景</Chinese>
     <!--描述信息,英文说明信息-->
-    <English>SLG game scene</English>
+    <English>RPG game scene</English>
   </Description>
 </SampleInfo>

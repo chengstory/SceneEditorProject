@@ -43,7 +43,7 @@
               "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
               "classname": "CCNode",
               "name": "ore",
-              "canedit": false,
+              "canedit": true,
               "objecttag": 10006,
               "rotation": 0,
               "scalex": 1,
@@ -75,7 +75,7 @@
               "name": "CCSprite",
               "file": null,
               "fileData": {
-                "path": "grass.png",
+                "path": "envir/grass.png",
                 "plistFile": null,
                 "resourceType": 0
               }
@@ -100,7 +100,7 @@
               "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
               "classname": "CCNode",
               "name": "altar",
-              "canedit": false,
+              "canedit": true,
               "objecttag": 10009,
               "rotation": 0,
               "scalex": 1,
@@ -132,7 +132,7 @@
               "name": "CCSprite",
               "file": null,
               "fileData": {
-                "path": "grass.png",
+                "path": "envir/grass.png",
                 "plistFile": null,
                 "resourceType": 0
               }
@@ -175,7 +175,7 @@
           "name": "CCSprite",
           "file": null,
           "fileData": {
-            "path": "Background.png",
+            "path": "envir/Background.png",
             "plistFile": null,
             "resourceType": 0
           }
@@ -232,7 +232,7 @@
           "name": "CCSprite",
           "file": null,
           "fileData": {
-            "path": "qiancao.png",
+            "path": "envir/qiancao.png",
             "plistFile": null,
             "resourceType": 0
           }
@@ -289,7 +289,7 @@
           "name": "CCSprite",
           "file": null,
           "fileData": {
-            "path": "qiancao.png",
+            "path": "envir/qiancao.png",
             "plistFile": null,
             "resourceType": 0
           }
@@ -346,7 +346,7 @@
           "name": "CCSprite",
           "file": null,
           "fileData": {
-            "path": "qiancao.png",
+            "path": "envir/qiancao.png",
             "plistFile": null,
             "resourceType": 0
           }
@@ -455,7 +455,7 @@
           "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
           "classname": "CCNode",
           "name": "1",
-          "canedit": false,
+          "canedit": true,
           "objecttag": 10023,
           "rotation": 0,
           "scalex": 1,
@@ -472,7 +472,7 @@
               "name": "CCSprite",
               "file": null,
               "fileData": {
-                "path": "stone2.png",
+                "path": "envir/stone2.png",
                 "plistFile": null,
                 "resourceType": 0
               }
@@ -483,7 +483,7 @@
           "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
           "classname": "CCNode",
           "name": "2",
-          "canedit": false,
+          "canedit": true,
           "objecttag": 10024,
           "rotation": 0,
           "scalex": 1,
@@ -500,7 +500,7 @@
               "name": "CCSprite",
               "file": null,
               "fileData": {
-                "path": "stone3.png",
+                "path": "envir/stone3.png",
                 "plistFile": null,
                 "resourceType": 0
               }
@@ -511,7 +511,7 @@
           "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
           "classname": "CCNode",
           "name": "3",
-          "canedit": false,
+          "canedit": true,
           "objecttag": 10025,
           "rotation": 0,
           "scalex": 1,
@@ -528,7 +528,7 @@
               "name": "CCSprite",
               "file": null,
               "fileData": {
-                "path": "stone4.png",
+                "path": "envir/stone4.png",
                 "plistFile": null,
                 "resourceType": 0
               }
@@ -543,7 +543,7 @@
           "name": "CCSprite",
           "file": null,
           "fileData": {
-            "path": "stone1.png",
+            "path": "envir/stone1.png",
             "plistFile": null,
             "resourceType": 0
           }
@@ -567,8 +567,8 @@
         {
           "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
           "classname": "CCNode",
-          "name": null,
-          "canedit": true,
+          "name": "water",
+          "canedit": false,
           "objecttag": 10012,
           "rotation": 2.17774415,
           "scalex": 0.466565043,
@@ -600,7 +600,7 @@
           "name": "CCSprite",
           "file": null,
           "fileData": {
-            "path": "qiancao.png",
+            "path": "envir/qiancao.png",
             "plistFile": null,
             "resourceType": 0
           }
@@ -657,7 +657,7 @@
           "name": "CCSprite",
           "file": null,
           "fileData": {
-            "path": "qiancao.png",
+            "path": "envir/qiancao.png",
             "plistFile": null,
             "resourceType": 0
           }
@@ -710,7 +710,7 @@
           "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
           "classname": "CCNode",
           "name": "crystal",
-          "canedit": true,
+          "canedit": false,
           "objecttag": 10030,
           "rotation": 0,
           "scalex": 0.596954644,
@@ -742,7 +742,35 @@
           "name": "CCSprite",
           "file": null,
           "fileData": {
-            "path": "qiancao.png",
+            "path": "envir/qiancao.png",
+            "plistFile": null,
+            "resourceType": 0
+          }
+        }
+      ]
+    },
+    {
+      "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+      "classname": "CCNode",
+      "name": "light",
+      "canedit": true,
+      "objecttag": 10029,
+      "rotation": 0,
+      "scalex": 1,
+      "scaley": 1,
+      "visible": 1,
+      "x": 339,
+      "y": 731.75,
+      "zorder": 1,
+      "gameobjects": [],
+      "components": [
+        {
+          "__type": "ComParticleSystemSurrogate:#EditorCommon.JsonModel.Component",
+          "classname": "CCParticleSystemQuad",
+          "name": "CCParticleSystemQuad",
+          "file": null,
+          "fileData": {
+            "path": "particle/light.plist",
             "plistFile": null,
             "resourceType": 0
           }

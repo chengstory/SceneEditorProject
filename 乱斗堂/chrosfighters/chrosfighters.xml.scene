@@ -1,14 +1,16 @@
 <?xml version="1.0"?>
 <SceneProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>0.4.0.0</Version>
+  <Version>1.0.0.0</Version>
   <Name>chrosfighters</Name>
-  <ProjectDir>C:\Users\dc\Desktop\乱斗堂\chrosfighters</ProjectDir>
+  <ProjectDir>C:\Users\dc\Desktop\SamplesProjet\SceneEditorProject\乱斗堂\chrosfighters</ProjectDir>
   <JsonFileName>chrosfighters.json</JsonFileName>
-  <Resources>C:\Users\dc\Desktop\乱斗堂\chrosfighters\Resources</Resources>
-  <JsonFolder>C:\Users\dc\Desktop\乱斗堂\chrosfighters\Json</JsonFolder>
+  <Resources>C:\Users\dc\Desktop\SamplesProjet\SceneEditorProject\乱斗堂\chrosfighters\Resources</Resources>
+  <JsonFolder>C:\Users\dc\Desktop\SamplesProjet\SceneEditorProject\乱斗堂\chrosfighters\Json</JsonFolder>
   <JsonList />
   <CanvasSize>
     <Width>1024</Width>
     <Height>768</Height>
   </CanvasSize>
+  <JSFileList />
+  <DefaultUI_JSList />
 </SceneProject>
