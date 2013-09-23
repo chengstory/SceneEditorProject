@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<SampleInfo Name="RPGGame" Type="Scene">
-  <PreviewImage Name="RPGGame.png"/>
+<SampleInfo Name="FishJoy2" Type="Scene">
+  <PreviewImage Name="FishJoy2.png"/>
   <MinEditorVersion>0.4.0.0</MinEditorVersion>
   <UpdateTime>2013/9/16 10:28:06</UpdateTime>
   <Description>
-    <Chinese>    角色扮演游戏场景</Chinese>
-    <English>    RPG game scene</English>
+    <Chinese>    捕鱼2登录场景</Chinese>
+    <English>    FishJoy2 Login Scene</English>
   </Description>
 </SampleInfo>
